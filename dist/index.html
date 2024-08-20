@@ -30,31 +30,37 @@
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
         
         <!-- Header-->
-        <header class="bg-dark py-5" id="header">
-            <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="text-center my-5">
-                            <!-- Adding the image -->
-                            <img src="assets/hunter-logo-dark.png" alt="Huntura Logo" style="max-width: 100px; margin-bottom: 20px;">
-                            <h1 class="display-5 fw-bolder text-white mb-2">Empower Your Job Search with Huntura</h1>
-                            <p class="lead text-white-50 mb-4">Huntura helps you seamlessly apply for CS/AI jobs and track your applications in one place. Stay organized, never miss an opportunity, and advance your career with our intuitive and efficient platform.</p>
-                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                                <!-- Add any buttons or links here if needed -->
+       <!-- Header-->
+            <header style="background-color: #161616; padding: 2rem 0;" id="header">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="text-center my-5">
+                                <!-- Adding the image -->
+                                <img src="assets/hunter-logo-dark.png" alt="Huntura Logo" style="max-width: 100px; margin-bottom: 20px;">
+                                <h1 class="display-5 fw-bolder" style="color: #bb86fc; margin-bottom: 0.5rem;">Empower Your Job Search with Huntura</h1>
+                                <p class="lead" style="color: #cccccc; margin-bottom: 1rem;">Huntura helps you seamlessly apply for CS/AI jobs and track your applications in one place. Stay organized, never miss an opportunity, and advance your career with our intuitive and efficient platform.</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                    <!-- Add any buttons or links here if needed -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
+
         
         <!-- Features section-->
         <section class="py-5 border-bottom" id="features">
@@ -62,8 +68,8 @@
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-lightbulb"></i></div>
-                        <h2 class="h4 fw-bolder">AI-Powered Job Matching</h2>
-                        <p>Leverage advanced AI algorithms to match your profile with the best CS/AI job opportunities. Save time and get personalized recommendations tailored to your skills and experience.</p>
+                        <h2 class="h4 fw-bolder">Job Filtering</h2>
+                        <p>Leverage filters to match your profile with the best CS/AI job opportunities. Save time and filter jobs tailored to your skills and experience.</p>
                         <a class="text-decoration-none" href="#!">
                             Find Your Match
                             <i class="bi bi-arrow-right"></i>
@@ -99,7 +105,7 @@
                     <p class="lead mb-0">Take a closer look at how Huntura works</p>
                 </div>
                 <div class="horizontal-scroll-custom">
-                    <div class="d-flex flex-row">
+                    <div class="d-flex flex-row overflow-auto" style="gap: 20px; padding-bottom: 10px;">
                         <div class="p-2">
                             <img src="assets/IMG_5688.jpeg" class="img-fluid rounded" alt="Screenshot 1">
                         </div>
@@ -117,7 +123,44 @@
                 </div>
             </div>
         </section>
-        
+
+        <!-- Meet the Team Section -->
+        <section class="py-5 bg-light" id="team">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Meet the Team</h2>
+                    <p class="lead mb-0">The minds behind Huntura</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <!-- Team Member 1 -->
+                    <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                        <img src="assets/madhav.jpeg" class="img-fluid rounded-circle mb-3" alt="Team Member 1" style="max-width: 150px;">
+                        <h5 class="fw-bolder">
+                            <a href="https://www.linkedin.com/in/mad-havs/" target="_blank" class="text-decoration-none text-dark">Madhav Sharma</a>
+                        </h5>
+                        <p class="text-muted">Software Engineer</p>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                        <img src="assets/Mehul.jpeg" class="img-fluid rounded-circle mb-3" alt="Team Member 2" style="max-width: 150px;">
+                        <h5 class="fw-bolder">
+                            <a href="https://www.linkedin.com/in/msrivas7/" target="_blank" class="text-decoration-none text-dark">Mehul Srivastava</a>
+                        </h5>
+                        <p class="text-muted">Software Engineer</p>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                        <img src="assets/hriday.jpeg" class="img-fluid rounded-circle mb-3" alt="Team Member 3" style="max-width: 150px;">
+                        <h5 class="fw-bolder">
+                            <a href="https://www.linkedin.com/in/hridayshah/" target="_blank" class="text-decoration-none text-dark">Hriday Shah</a>
+                        </h5>
+                        <p class="text-muted">Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </br>
         
         <!-- Contact section-->
         <section class="bg-light py-5" id="contact">
@@ -129,63 +172,39 @@
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Formspree Contact Form -->
+                        <form action="https://formspree.io/f/xvgpbvla" method="POST">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
                                 <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                <div class="invalid-feedback">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required />
                                 <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                <div class="invalid-feedback">An email is required.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="(123) 456-7890" />
                                 <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
                                 <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                <div class="invalid-feedback">A message is required.</div>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid"><button class="btn btn-primary btn-lg" type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
+        
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Huntura 2024</p></div>
